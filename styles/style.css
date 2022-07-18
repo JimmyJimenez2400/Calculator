@@ -1,0 +1,163 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.buttons-grid{
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    align-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.buttons-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    background-color: rgba(185, 185, 185, 0.75);
+    color: white;
+    transition: border .3s ease-in-out;
+}
+
+.buttons-grid >button:hover{
+    border: #e1e1e1 solid 6px;
+    animation-duration: 1s;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.buttons-grid >.green-button:hover {
+    background-color: #0fa;
+}
+
+.buttons-grid >.deleteBtn:hover {
+    background-color: rgb(237, 55, 55);
+}
+
+.span-two{
+    grid-column: span 2;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.output .prevOperand{
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+}
+
+.output .currOperand{
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    color: white;
+    font-size: 2.5rem;
+
+}
+
+
+
+
+
+/* .calc-grid >.buttons-grid {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    background-color: rgba(185, 185, 185,0.75)
+
+}
+
+.calc-grid >.buttons-grid:hover {
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    color: white;
+    background-color: black;
+}
+
+
+
+.span-two {
+    grid-column: span 2;
+}
+
+.calc-grid >.deleteBtn:hover {
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #BD1A1A,
+    0 0 82px #BD1A1A,
+    0 0 92px #BD1A1A,
+    0 0 102px #BD1A1A,
+    0 0 151px #BD1A1A;
+}
+
+.calc-grid >.green-button{
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #BD1A1A,
+    0 0 82px #BD1A1A,
+    0 0 92px #BD1A1A,
+    0 0 102px #BD1A1A,
+    0 0 151px #BD1A1A;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+} */
+
