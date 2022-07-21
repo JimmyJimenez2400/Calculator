@@ -9,4 +9,4 @@ The problems it solved were figuring out how to do a grid and actually build the
 I learned about grids, calling functions, arrow functions, eventlisteners, keyboard functionality and much more.
 
 github: https://github.com/JimmyJimenez2400/Calculator <br>
-Live Preview: 
+Live Preview: https://jimmyjimenez2400.github.io/Calculator/
