@@ -8,5 +8,5 @@ I built this project to enhance my javascript skills and as well understand what
 The problems it solved were figuring out how to do a grid and actually build the app.
 I learned about grids, calling functions, arrow functions, eventlisteners, keyboard functionality and much more.
 
-github:
+github: https://github.com/JimmyJimenez2400/Calculator <br>
 Live Preview: 
