@@ -54,6 +54,31 @@ body {
     background-color: rgb(237, 55, 55);
 }
 
+.buttons-grid >.division:hover {
+    background-color: rgb(30, 101, 124);
+}
+
+.buttons-grid >.multi:hover {
+    background-color: rgb(133, 197, 55);
+}
+
+.buttons-grid >.subtraction:hover {
+    background-color: rgb(212, 143, 16);
+}
+
+.buttons-grid >.addition:hover{
+    background-color: rgb(151, 20, 232);
+}
+
+.buttons-grid #clearButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.buttons-grid >.decimal:hover{
+    background-color: rgb(234, 255, 7);
+}
+
 .span-two{
     grid-column: span 2;
 }
